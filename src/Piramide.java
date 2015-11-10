@@ -36,7 +36,7 @@ public class Piramide extends GraphicsProgram{
 		int basePiramide = numLadrillosBase * anchoLadrillo;
 		
 		
-		//terminado y probado con varios tamaños de ladrillo 
+		//TERMINADO !!!
 		for (int j=0; j< numLadrillosBase; j++){
 			for (int i=0; i< numLadrillosBase -j; i++){
 				GRect ladrillo = new GRect(anchoLadrillo, altoLadrillo);
